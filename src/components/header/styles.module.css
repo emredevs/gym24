@@ -29,3 +29,7 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width:1000px){
+  .headerBox>ul>li{margin: 0px 10px;}
+  }

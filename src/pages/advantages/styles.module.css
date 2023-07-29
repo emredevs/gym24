@@ -17,3 +17,16 @@
 .reasonsBox>div>*{
     margin: 5px;
 }
+
+
+@media (max-width:750px){
+    .reasons{
+        flex-direction: column;}
+    .reasonsBox{
+        width: 100%;
+      
+       border-bottom: 1px solid white;
+       padding-bottom: 20px;
+    }
+    
+}
