@@ -1,0 +1,19 @@
+.reasons{
+    margin: 10vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.reasonsBox{
+    margin: 5vh auto ; 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.reasonsBox>img{margin-top:10px ;}
+.reasonsBox>div>*{
+    margin: 5px;
+}

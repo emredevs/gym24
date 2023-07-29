@@ -1,0 +1,12 @@
+.aboutContainer {
+    margin: 10vh auto;
+  height: 451px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.aboutContainer>img{
+    width: 570px;
+height: 454px;
+}

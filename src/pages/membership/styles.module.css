@@ -1,0 +1,36 @@
+h1{text-align: center;}
+.membership {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.membershipBox {
+  margin: 30px;
+  width: 275px;
+  height: 397px;
+  border-radius: 10px;
+  background: #222;
+}
+.membershipBox > div:first-child {
+  border-bottom: 1px solid black;
+}
+.membershipBoxin {
+  padding: 10px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.membershipBoxin>span{margin: 10px auto;}
+.membershipBoxin > button {
+  width: 107px;
+  height: 30px;
+  border-radius: 30px;
+  background: #faff00;
+  position: relative;
+  bottom: -10vh;
+  cursor: pointer;
+}

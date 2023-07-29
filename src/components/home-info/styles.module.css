@@ -1,0 +1,36 @@
+.homeInfoBox {
+    margin: 10% auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homeInfoBox > img {
+  
+  width: 50%;
+  border-radius: 20%;
+
+}
+.homeInfoBox > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 60px;
+
+}
+.homeInfoBox > div > span {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.homeInfoBox > div > button {
+  cursor: pointer;
+  width: 177px;
+  height: 52px;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 16px 51px 16px 50px;
+  border-radius: 30px;
+  background: #faff00;
+}
