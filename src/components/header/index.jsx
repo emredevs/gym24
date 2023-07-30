@@ -10,6 +10,8 @@ export default function Header() {
           GYM<span>24</span>
         </Link>
       </div>
+      <Sidebar />
+
       <ul>
         <li>
           <Link to={"/"}>Home</Link>
@@ -27,7 +29,6 @@ export default function Header() {
           <Link to={"/Trainers"}>Trainers</Link>
         </li>
       </ul>
-      <Sidebar />
     </div>
   );
 }
