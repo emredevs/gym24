@@ -1,4 +1,5 @@
 import React from "react";
+import Sidebar from "../sidebar/index";
 import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 export default function Header() {
@@ -26,6 +27,7 @@ export default function Header() {
           <Link to={"/Trainers"}>Trainers</Link>
         </li>
       </ul>
+      <Sidebar />
     </div>
   );
 }

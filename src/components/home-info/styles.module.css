@@ -6,7 +6,6 @@
   align-items: center;
 }
 .homeInfoBox > img {
-  
   width: 50%;
   height:500px;
   border-radius: 20%;
@@ -18,7 +17,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 60px;
-
 }
 .homeInfoBox > div > span {
   font-size: 64px;
@@ -46,6 +44,35 @@ height: 350px;
 }
 .homeInfoBox>div>span{
   font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+}
+
+
+@media (max-width:500px){
+  .homeInfoBox{gap: 20px;
+  }
+ .homeInfoBox>img{width: 50%;
+height: 250px;
+}
+.homeInfoBox>div>span{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+}
+
+@media (max-width:380px){
+  .homeInfoBox{gap: 20px;
+  }
+ .homeInfoBox>img{width: 35%;
+height: 180px;
+}
+.homeInfoBox>div>span{
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

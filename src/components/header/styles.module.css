@@ -33,3 +33,8 @@
 @media (max-width:1000px){
   .headerBox>ul>li{margin: 0px 10px;}
   }
+
+  @media (max-width: 750px){
+    
+.headerBox>ul{display: none;}
+  }
