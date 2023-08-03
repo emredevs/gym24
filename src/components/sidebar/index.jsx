@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className="sidebarContainer">
       <div>
         <button className="toggle-button" onClick={toggleSidebar}>
-          {isOpen ? <MenuOpenIcon /> : <MenuIcon />}
+          {isOpen ?  <MenuIcon />:<MenuOpenIcon /> }
         </button>
         <div className={`sidebar ${isOpen ? "open" : ""}`}>
           <ul className="menu">
