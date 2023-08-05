@@ -6,6 +6,7 @@ export default function TrainersPage() {
   return (
     <>
       <Header />
+
       <h1>Trainers staff</h1>
       <div className={styles.trainers}>
         <div className={styles.trainersBox}>

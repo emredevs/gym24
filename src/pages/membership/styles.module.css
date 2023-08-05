@@ -1,10 +1,14 @@
-h1{text-align: center;}
+h1 {
+  text-align: center;
+  margin-top: 10vh;
+}
 .membership {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
+  margin-top: 1vh;
 }
 .membershipBox {
   margin: 30px;
@@ -24,13 +28,16 @@ h1{text-align: center;}
   justify-content: center;
   flex-direction: column;
 }
-.membershipBoxin>span{margin: 10px auto;}
+.membershipBoxin > span {
+  margin: 10px auto;
+}
 .membershipBoxin > button {
   width: 107px;
   height: 30px;
   border-radius: 30px;
   background: #faff00;
   position: relative;
+  z-index: 0;
   bottom: -10vh;
   cursor: pointer;
 }
