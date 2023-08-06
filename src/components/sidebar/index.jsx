@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
-import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 import "./styles.css";
 
 const Sidebar = () => {
@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div className="sidebarContainer">
       <div>
         <button className="toggle-button" onClick={toggleSidebar}>
-          {isOpen ?  <MenuIcon />:<MenuOpenIcon /> }
+          {isOpen ? <MenuOpenIcon /> : <CloseIcon />}
         </button>
         <div className={`sidebar ${isOpen ? "open" : ""}`}>
           <ul className="menu">
